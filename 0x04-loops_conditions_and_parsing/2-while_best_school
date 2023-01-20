@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-i=11
+i=10
 while command
 do
-statements(s) to be executed if command is true
+	echo Best School in $i
+	((i--))
 done
