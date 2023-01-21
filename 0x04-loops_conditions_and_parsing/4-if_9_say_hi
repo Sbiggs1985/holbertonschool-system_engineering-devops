@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#If statements in the while loop
+i=10
+
+while [ $i -le 7]
+do
+	echo Best School
+	((i++))
+	if [ $i = 9 ] 
+	then
+		Echo Best School
+		echo Hi
+	fi
+done
