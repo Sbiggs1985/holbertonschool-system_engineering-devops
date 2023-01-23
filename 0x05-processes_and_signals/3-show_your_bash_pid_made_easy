@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #Show the bash PID
-pidof bash
+pgrep bash -l
