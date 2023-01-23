@@ -1,8 +1,15 @@
 #!/usr/bin/env bash
 #Using while loops to display time
-i=
-
-while
-do
-
+m=1
+h=0
+while [ $h -lt 13 ]
+	do
+	echo "Hour: $h"
+	while [ $m -lt 60 ]
+	do
+	echo "$m"
+	((m++))
+	done
+	((h++))
+	((m = 1))
 done
