@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#for is
+i=1
+ls -1 . | cut -f 2 -d '_'
+for i in [ i -e 1]
+do
+	((i++))
+	done
