@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #Highlander
-trap "echo I am invincible!!" SIGTERM
 function no_ctrlc()
 {
 	echo "I am invincible!!"
