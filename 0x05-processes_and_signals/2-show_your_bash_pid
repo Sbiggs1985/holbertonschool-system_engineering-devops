@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #show me the bash
 grep "bash" | ps -auh
-# shellcheck disable=SC2009
+shellcheck disable=SC2009
