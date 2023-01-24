@@ -1,9 +1,0 @@
-#!/bin/bash
-x=10
-
-while [ $x -ge 1 ]
-do
-	echo "Test"
-	((x--))
-	
-done

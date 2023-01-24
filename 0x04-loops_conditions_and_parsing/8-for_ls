@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #for is
 i=1
-ls -1 . | cut -f 2 -d '_'
+ls -1 . | cut -f 2 -d '-'
 for i in [ i -e 1]
 do
 	((i++))
